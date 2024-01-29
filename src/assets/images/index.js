@@ -1,7 +1,11 @@
 import BackgroundSS from "./background.png";
-import Splashscreen from "./splashscreen.png";
+import SplashS from "./splashscreen.png";
+import PhotoCoffe from './photocoffe.png';
+import PhotoProfile from './photoprofile.png';
 
-export default {
+export {
   BackgroundSS,
-  Splashscreen,
+  SplashS,
+  PhotoCoffe,
+  PhotoProfile,
 };

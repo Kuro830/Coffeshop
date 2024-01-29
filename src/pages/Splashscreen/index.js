@@ -1,16 +1,16 @@
 import React from 'react'
 import { Image, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import images from "../../assets/images";
+import { BackgroundSS, SplashS } from "../../assets";
 
 const Splashscreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={images.BackgroundSS}
+        source={BackgroundSS}
         style={styles.imageBackground}
       >
         <View style={styles.imageView}>
-          <Image source={images.Splashscreen} />
+          <Image source={SplashS} />
         </View>
         <View style={styles.titleView}>
           <Text style={styles.title}>
